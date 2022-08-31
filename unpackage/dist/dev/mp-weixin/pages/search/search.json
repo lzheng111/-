@@ -1,0 +1,26 @@
+{
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4px",
+      "disabled": false,
+      "placeholder": "XiaoMi 12S",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "color": "#989898",
+        "colorPressed": "#FD6801",
+        "float": "right",
+        "fontSize": "14px",
+        "text": "搜索"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "card": "/components/common/card",
+    "color-tag": "/components/search/color-tag"
+  }
+}

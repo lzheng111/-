@@ -1,0 +1,23 @@
+<template>
+	<scroll-view scroll-x="true" class="scroll-row" >
+		<view class="scroll-row-item" style="height: 110upx;width: 170upx;"
+		v-for="(item,index) in baseAttrs" :key="index">
+			 <view class="d-flex flex-column a-center j-center ">
+				 <view class="iconfont line-h-sm" :class="item.icon"></view>
+				 <view class="line-h-sm">{{item.title}}</view>
+				 <view class="text-light-muted font-sm line-h-sm">{{item.desc}}</view>
+			 </view>
+		</view>
+	</scroll-view>
+</template>
+
+<script>
+	export default{
+		props:{
+			baseAttrs:Array
+		}
+	}
+</script>
+
+<style>
+</style>

@@ -1,0 +1,421 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"h5": {
+					"titleNView": {
+						"searchInput": {
+						  "align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"disabled": true,
+							"placeholder": "XiaoMi 12S",
+							"placeholderColor": "#CCCCCC"
+						},
+						"buttons": [
+							 {
+								 "color": "#989898",
+								 "colorPressed": "#FD6801",
+								 "float": "left",
+								 "fontSize": "22px",
+								 "fontSrc": "/static/font/iconfont.ttf",
+								 "text": "\ue67a"
+							 },
+							 {
+							 		"color": "#989898",
+							 		"colorPressed": "#FD6801",
+							 		"float": "right",
+							 		"fontSize": "22px",
+							 		"fontSrc": "/static/font/iconfont.ttf",
+							 		"text": "\ue661"
+							 }
+						]
+					}
+				},
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+						  "align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"disabled": true,
+							"placeholder": "XiaoMi 12S",
+							"placeholderColor": "#CCCCCC"
+						},
+						"buttons": [
+							 {
+								 "color": "#989898",
+								 "colorPressed": "#FD6801",
+								 "float": "left",
+								 "fontSize": "22px",
+								 "fontSrc": "/static/font/iconfont.ttf",
+								 "text": "\ue67a"
+							 },
+							 {
+							 		"color": "#989898",
+							 		"colorPressed": "#FD6801",
+							 		"float": "right",
+							 		"fontSize": "22px",
+							 		"fontSrc": "/static/font/iconfont.ttf",
+							 		"text": "\ue661"
+							 }
+						]
+					}
+				},
+				"mp-weixin": {
+					"titleNView": {
+						"searchInput": {
+						  "align": "left",
+							"backgroundColor": "#F7F7F7",
+							"borderRadius": "4px",
+							"disabled": true,
+							"placeholder": "XiaoMi 12S",
+							"placeholderColor": "#CCCCCC"
+						},
+						"buttons": [
+							 {
+								 "color": "#989898",
+								 "colorPressed": "#FD6801",
+								 "float": "left",
+								 "fontSize": "22px",
+								 "fontSrc": "/static/font/iconfont.ttf",
+								 "text": "\ue67a"
+							 },
+							 {
+							 		"color": "#989898",
+							 		"colorPressed": "#FD6801",
+							 		"float": "right",
+							 		"fontSize": "22px",
+							 		"fontSrc": "/static/font/iconfont.ttf",
+							 		"text": "\ue661"
+							 }
+						]
+					}
+				}
+		}
+		},
+		{
+			"path": "pages/class/class",
+			"style": {
+					"h5": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "22px",
+								 		"fontSrc": "/static/font/iconfont.ttf",
+								 		"text": "\ue67a"
+								 }
+							]
+						}
+					},
+					"app-plus": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "22px",
+								 		"fontSrc": "/static/font/iconfont.ttf",
+								 		"text": "\ue67a"
+								 }
+							]
+						}
+					},
+					"mp-weixin": {
+						"titlewNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "22px",
+								 		"fontSrc": "/static/font/iconfont.ttf",
+								 		"text": "\ue67a"
+								 }
+							]
+						}
+					}
+					
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"h5":{
+					"titleNView": false
+				},
+				"app-plus":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"h5":{
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+					"h5": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					},
+					"app-plus": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					},
+					"mp-weixin": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					}
+			}
+		},
+		{
+			"path": "pages/search-list/search-list",
+			"style": {
+					"h5": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					},
+					"app-plus": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					},
+					"mp-weixin": {
+						"titleNView": {
+							"searchInput": {
+							  "align": "left",
+								"backgroundColor": "#F7F7F7",
+								"borderRadius": "4px",
+								"disabled": false,
+								"placeholder": "XiaoMi 12S",
+								"placeholderColor": "#CCCCCC"
+							},
+							"buttons": [
+								 {
+								 		"color": "#989898",
+								 		"colorPressed": "#FD6801",
+								 		"float": "right",
+								 		"fontSize": "14px",
+								 		"text": "搜索"
+								 }
+							]
+						}
+					}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"h5": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [
+							{
+								"type":"menu"
+							}
+						]
+					}
+				},
+				"app-plus": {
+					 "popGesture": "none", // 禁用侧滑
+					"bounce": "none", // 禁用上下拖动页面
+					"scrollIndicator":"none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [
+							{
+								"type":"menu"
+							}
+						]
+					}
+				},
+				"mp-weixin": {
+					 "popGesture": "none", // 禁用侧滑
+					"bounce": "none", // 禁用上下拖动页面
+					"scrollIndicator":"none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [
+							{
+								"type":"menu"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/detail-comment/detail-comment",
+			"style": {
+				"navigationBarTitleText": "商品评价" 
+			}
+		}
+        ,{
+            "path" : "pages/test/test" 
+        }
+    ],
+	
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小米商城",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF" 
+	},
+	"tabBar": {
+		  "color" : "#B5B5B5",
+			    "selectedColor" : "#FD6801",
+			    "borderStyle" : "black",
+			    "backgroundColor" : "#FFFFFF",
+			    "list" : [
+			    {
+						"pagePath":"pages/index/index",
+						"text":"首页",
+						"iconPath":"static/tabbar/index.png",
+						"selectedIconPath":"static/tabbar/indexSelected.png"
+			    },
+					{
+						"pagePath":"pages/class/class",
+						"text":"分类",
+						"iconPath":"static/tabbar/class.png",
+						"selectedIconPath":"static/tabbar/classSelected.png"
+					},
+					{
+						"pagePath":"pages/cart/cart",
+						"text":"购物车",
+						"iconPath":"static/tabbar/cart.png",
+						"selectedIconPath":"static/tabbar/cartSelected.png"
+					},
+					{
+						"pagePath":"pages/my/my",
+						"text":"我的",
+						"iconPath":"static/tabbar/my.png",
+						"selectedIconPath":"static/tabbar/mySelected.png"
+					}
+			    ]
+			}
+	
+}

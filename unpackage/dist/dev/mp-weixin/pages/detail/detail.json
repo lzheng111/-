@@ -1,0 +1,28 @@
+{
+  "popGesture": "none",
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "u-parse": "/components/u-parse/u-parse",
+    "uni-number-box": "/uni_modules/uni-number-box/components/uni-number-box/uni-number-box",
+    "swiper-image": "/components/index/swiper-image",
+    "base-info": "/components/detail/base-info",
+    "scroll-attrs": "/components/detail/scroll-attrs",
+    "scroll-comments": "/components/detail/scroll-comments",
+    "card": "/components/common/card",
+    "common-list": "/components/common/common-list",
+    "bottom-btn": "/components/detail/bottom-btn",
+    "common-popup": "/components/common/common-popup",
+    "price": "/components/common/price",
+    "uradio-group": "/components/common/radio-group"
+  }
+}

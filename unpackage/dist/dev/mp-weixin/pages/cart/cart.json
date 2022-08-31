@@ -1,0 +1,11 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar",
+    "uni-number-box": "/uni_modules/uni-number-box/components/uni-number-box/uni-number-box",
+    "price": "/components/common/price",
+    "card": "/components/common/card",
+    "uradio-group": "/components/common/radio-group",
+    "common-popup": "/components/common/common-popup"
+  }
+}

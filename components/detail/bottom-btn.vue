@@ -1,0 +1,36 @@
+<template>
+	<view>
+		<view style="height: 100rpx;"></view>
+		<view class="d-flex a-stretch bg-white position-fixed left-0 bottom-0 right-0" style="height: 100rpx; z-index: 100;">
+			<view class="d-flex flex-1 flex-column a-center j-center line-h-md" hover-class="bg-light-secondary">
+				<view class="iconfont icon-xihuan line-h-md" style="color:#E0E0E0;" ></view>
+				  收藏
+			</view>
+			<view class="d-flex flex-1 flex-column a-center j-center line-h-md" hover-class="bg-light-secondary"
+			@tap="toCart">
+				<view class="iconfont icon-gouwuche line-h-md" style="color:#E0E0E0;"></view>
+				  购物车
+			</view>
+		  <view style="flex:2.5" class="d-flex a-center j-center font-md main-bg-color text-white"
+			hover-class="main-bg-hover-color"
+			@tap="$emit('show')" >
+		  	加入购物车
+			</view>
+		</view>
+	</view>
+</template>
+   
+<script>
+	export default{
+		methods:{
+			toCart(){
+				uni.switchTab({
+					url:"../../pages/cart/cart"
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+</style>

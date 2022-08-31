@@ -1,0 +1,9 @@
+<view class="row">
+		<view class="span24-8 px-2 mb-2" v-for="(item,index) in label.list" :key="index">
+			<view class="rounded px-2 py-1 bg-light-secondary text-center border border-light-secondary"
+			:class="label.selected === index ?'radio-active' : 'border-light-secondary'"
+			bindtap="changeRadio(index)">
+		  	{{item.name}}
+			</view>
+		</view>
+	</view>
